@@ -21,8 +21,10 @@ const Contact = () => {
       <div className={`${inView ? 'animate-fadeIn text-white rounded-lg shadow-sm pt-5 pb-1 md:py-4 px-4 md:px-6 ' : 'text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]'}`}>
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-x-1 mb-4">
           <div className="mb-6 lg:mb-0 text-center mx-auto">
-            <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out]"/>
-            <h6 className="font-medium">X</h6>
+            <a href='https://twitter.com/Mr_AllenT'>
+              <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out]"/>
+              <h6 className="font-medium">X</h6>
+            </a>
           </div>
           <div className="text-center mx-auto">
             <a href='mailto:allent.bus@gmail.com'>
