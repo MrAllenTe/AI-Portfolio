@@ -15,16 +15,18 @@ import {AiOutlineTwitter} from 'react-icons/ai'
 
 
 
+
+
+
 const Work = () => {
 const {ref, inView } = useInView(false)
 
 return (
     <div name='work' className='w-full min-h-screen flex justify-center items-center text-[#EDEAEA] bg-[#0f161a] px-8 md:px-12'>
         <div ref={ref}>
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-            <div className='pb-8 flex justify-center'>
-                <p 
-                className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
+        <div className='max-w-[1000px] mx-auto p-4 w-full h-full '>
+            <div className='sm:text-right pb-8 flex sm:justify-center'>
+                <p className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
                     SELECTED WORK
                 </p>
             </div>
@@ -43,11 +45,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Growth.</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A frame-by-frame animation using only Adobe Generative Fill</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1696686894828986832'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -65,11 +67,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Ghoul City</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A side scrolling video game made entirely with GPT4 and Midjourney.</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
-        <a href='https://twitter.com/Mr_AllenT/highlights'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <a href='https://twitter.com/Mr_AllenT/status/1655604624747909123'>
+            <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -90,11 +92,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Forever Love</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A frame-by-frame animation using only Midjourney variations</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1673684058847444993'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -114,11 +116,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Hogwarts High</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A mock 1980's sitcom of Harry Potter made with Midjourney, D-ID, and MusicLM</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1667912704734945280'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -138,11 +140,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Metal Henry</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A fictional robot rock band music video created with Runway and MusicLM</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1666882805412790281'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -162,11 +164,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Make a moment.</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>An inspirational video created with Midjourney, runway, and voiced by me.</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1687513151531601932'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -186,13 +188,13 @@ return (
   <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Selected Work</h1>
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Without a Clue</h1>
-    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A murder mystery trailer starring AI influencer created with my collegue and friend Proper Prompter. Without a Clue was created with Midjourney and Pika Labs</p>
+    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A murder mystery trailer created with @ProperPrompter. Created with Midjourney and Pika Labs</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1682435601037926411'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>
@@ -213,11 +215,11 @@ return (
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Escape</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>An AI video competition submission. Escape was created with Midjourney, Pika Labs, MusicLM, and Adobe</p>
     
-    <div className='absolute bottom-0 right-0 p-2'>
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1679997124467933185'>
-            <AiOutlineTwitter className='text-3xl hover:text-gray-800 pr-1'/>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
         </a>
         </div>
     </div>

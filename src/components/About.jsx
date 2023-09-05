@@ -12,15 +12,13 @@ const {ref, inView } = useInView()
   return (
     <div 
     name='about' 
-    className='w-full min-h-screen flex items-center bg-[#0f161a] text-[#EDEAEA]'>
+    className='w-full min-h-screen flex justify-center items-center bg-[#0f161a] text-[#EDEAEA]'>
         <div className='flex flex-col px-8 md:px-12 justify-center items-center w-full h-full'>
             <div ref={ref}>
-            <div className='max-w-[1000px] w-full grid grid-cols-2'>
-                <div className='sm:text-right pb-8 pl-4 items '>
+                <div className='sm:text-right pb-8 pl-4 items flex sm:justify-center'>
                     <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA]'>About Me 
                     </p>
                 </div>
-            </div>
 
             <div className={`${inView ? 'animate-fadeIn max-w-[1000px] w-full grid sm:grid-cols-2 gap-8' 
             : 'max-w-[1000px] w-full grid sm:grid-cols-2 gap-8'}`}>

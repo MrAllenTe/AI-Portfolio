@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div name='contact' className='w-full bg-[#0f161a] flex justify-center items-center pt-10'>
 
-<div className="px-4 md:px-12 pb-8" ref={ref}>
+<div className="px-4 md:px-12 pb-2 pt-10" ref={ref}>
 
 <div className='pb-8'>
                 <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>LET'S CONNECT</p>

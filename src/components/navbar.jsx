@@ -137,9 +137,10 @@ useEffect(() => {
 
 
         <div className='hidden fixed md:flex flex-col left-0 bottom-[-10%] pl-2'>
-            <a className='pb-4 hover:translate-y-[-4px] duration-300'>
+            <a className='pb-4 hover:translate-y-[-4px] duration-300'
+            href='https://twitter.com/Mr_AllenT'>
                 <AiOutlineTwitter className='hover:text-[#64FFDA] text-2xl'
-                href='https://twitter.com/Mr_AllenT'/>
+                />
             </a>
             <a className='pb-4 hover:translate-y-[-4px] duration-300'
                 href='mailto:allent.bus@gmail.com'>
