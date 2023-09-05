@@ -5,7 +5,7 @@ import Forever from '../assets/forever.png'
 import Ghoul from '../assets/ghoul.png'
 import Harry from '../assets/Harry.png'
 import Henry from '../assets/Henry.png'
-import Moment from '../assets/Ballerina.png'
+import Moment from '../assets/ballerina.png'
 import Clue from '../assets/Clue.png'
 import Escape from '../assets/escape.png'
 
@@ -65,7 +65,7 @@ return (
     <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Selected Work</h1>
     <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Ghoul City</h1>
-    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A side scrolling video game made entirely with GPT4 and Midjourney.</p>
+    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>A side-scrolling video game made entirely with GPT4 and Midjourney.</p>
     
     <div className='absolute bottom-0 right-0 p-2 mr-4'>
         <div></div>
@@ -161,7 +161,7 @@ return (
 
   <div className='p-3'>
     <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Selected Work</h1>
-    <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Make a moment.</h1>
+    <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Make a Moment.</h1>
     <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>An inspirational video created with Midjourney, runway, and voiced by me.</p>
     
     <div className='absolute bottom-0 right-0 p-2 mr-4'>
