@@ -28,7 +28,7 @@ const {ref, inView } = useInView()
                 <p className='text-3xl font-bold border-b-4  border-[#64FFDA]'>Experience</p>
                 <p className='py-4'>Here are some of the technologies that I have experience working with</p>
             </div>
-
+ 
             <div className={`${inView ? 'animate-fadeIn w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-4' : 'w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-4'}`}>
                 <div className='shadow-md shadow-[#64FFDA] hover:scale-110 hover:text-[#64FFDA] duration-500'>
                     <img className='w-[80px] mx-auto' src={CSS} />
