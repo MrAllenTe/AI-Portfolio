@@ -3,6 +3,8 @@ import { FaGithub } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {AiOutlineTwitter, AiOutlineInstagram} from 'react-icons/ai'
 import { Link } from 'react-scroll';
+import Logo from '../assets/logo.png'
+
  
 
 const Navbar = () => {
@@ -36,8 +38,8 @@ useEffect(() => {
        <div className='flex justify-between items-center w-full'>
             <div className='cursor-pointer'>
                 <Link to="home" smooth={true} duration={500}>
-                    {/* <img src={Logo} style={{width: '90px'}}/> */}
-                    <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'>Mr.AllenT</h1>
+                <img src={Logo} className="w-[200px] pr-[50px]" alt="Logo" />
+                    {/* <h1 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600'></h1> */}
                 </Link>
             </div>
     <div>
