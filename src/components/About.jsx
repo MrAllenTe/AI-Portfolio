@@ -34,6 +34,8 @@ const {ref, inView } = useInView()
                 <p>I'm an AI storyteller, full stack developer, and artist specializing in using AI technology and code to bring ideas to life. 
                     My background is in iOS and React development, but my passion lies in leveraging tools like 
                  <span className='text-[#64FFDA]'> Midjourney, Adobe, Stable Diffusion, Runway, GPT4, Claude, and Pika Labs</span> to create digital art, films, video games, and interactive stories.</p>
+                 <div></div>
+                 <div></div>
                 <p className='pt-2'> I believe AI holds amazing potential for creativity. My work explores new AI capabilities 
                 and pushes boundaries to make something novel. I approach each project with wonder and curiosity. </p>
                 <ul className='grid grid-cols-2 p-2 mt-2'>

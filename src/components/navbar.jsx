@@ -46,7 +46,7 @@ useEffect(() => {
             <ul className='hidden md:flex'>
 
                 <li>
-                    <Link to="about" smooth={true} duration={500} className='hover:text-[#64FFDA] link-underline'>
+                    <Link to="about" smooth={true} duration={500} className='hover:text-green-400 link-underline'>
                     About
                     </Link>
                 </li>
@@ -56,12 +56,12 @@ useEffect(() => {
                     </Link>
                 </li> */}
                 <li>
-                    <Link to="work" smooth={true} duration={500} className='hover:text-[#64FFDA] link-underline'>
+                    <Link to="work" smooth={true} duration={500} className='hover:text-green-400 link-underline'>
                     Selected Work
                     </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true} duration={500} className='hover:text-[#64FFDA] link-underline'>
+                    <Link to="contact" smooth={true} duration={500} className='hover:text-green-400 link-underline'>
                     Contact
                     </Link>
                 </li>
@@ -110,7 +110,7 @@ useEffect(() => {
         <div className='flex flex-col py-4'>
        <ul className='text-[#EDEAEA]'>
 
-                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
+                <li className='py-6 text-2xl hover:text-green-400'>
                     <Link onClick={handleClick}  to="about" smooth={true} duration={500}>
                     About
                     </Link>
@@ -120,12 +120,12 @@ useEffect(() => {
                     Experience
                     </Link>
                 </li> */}
-                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
+                <li className='py-6 text-2xl hover:text-green-400'>
                     <Link onClick={handleClick}  to="work" smooth={true} duration={500}>
                     Selected Work
                     </Link>
                 </li>
-                <li className='py-6 text-2xl hover:text-[#64FFDA]'>
+                <li className='py-6 text-2xl hover:text-green-400'>
                     <Link onClick={handleClick}  to="contact" smooth={true} duration={500}>
                     Contact
                     </Link>
@@ -139,12 +139,12 @@ useEffect(() => {
         <div className='hidden fixed md:flex flex-col left-0 bottom-[-10%] pl-2'>
             <a className='pb-4 hover:translate-y-[-4px] duration-300'
             href='https://twitter.com/Mr_AllenT'>
-                <AiOutlineTwitter className='hover:text-[#64FFDA] text-2xl'
+                <AiOutlineTwitter className='hover:text-green-400 text-2xl'
                 />
             </a>
             <a className='pb-4 hover:translate-y-[-4px] duration-300'
                 href='mailto:allent.bus@gmail.com'>
-                <HiOutlineMail className='hover:text-[#64FFDA] text-2xl' />
+                <HiOutlineMail className='hover:text-green-400 text-2xl' />
             </a>
             {/* <a className='pb-4 hover:translate-y-[-4px] duration-300'
                 href='https://github.com/allentevyaw'>

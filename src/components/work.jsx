@@ -8,6 +8,10 @@ import Henry from '../assets/Henry.png'
 import Moment from '../assets/ballerina.png'
 import Clue from '../assets/Clue.png'
 import Escape from '../assets/escape.png'
+import Mouth from '../assets/mouth.png'
+import Rain from '../assets/rain.png'
+
+
 
 
 import { useInView } from 'react-intersection-observer'
@@ -49,7 +53,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1696686894828986832'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -71,7 +75,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1655604624747909123'>
-            <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+            <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -96,7 +100,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1673684058847444993'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -120,7 +124,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1667912704734945280'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -144,7 +148,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1666882805412790281'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -168,7 +172,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1687513151531601932'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -194,7 +198,7 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1682435601037926411'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
         </a>
         </div>
     </div>
@@ -219,7 +223,56 @@ return (
         <div></div>
         <div className='flex'>
         <a href='https://twitter.com/Mr_AllenT/status/1679997124467933185'>
-        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> View</div>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Watch Now</div>
+        </a>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
+  <img src={Mouth} className="w-full h-full" alt="Mouth" />
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden 
+  hover:opacity-100 transition duration-500 ease-in-out bg-gradient-to-r from-[#2af598] 
+  via-[#1bd7bb] to-[#08b3e5] opacity-0">
+
+  <div className='p-3'>
+    <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Selected Work</h1>
+    <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Anxious</h1>
+    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>An AI art piece created with Midjourney and post-production editing</p>
+    
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
+        <div></div>
+        <div className='flex'>
+
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div className="relative group container overflow-hidden bg-no-repeat bg-cover rounded-lg shadow-lg shadow-black">
+  <img src={Rain} className="w-full h-full" alt="Rain" />
+  <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden 
+  hover:opacity-100 transition duration-500 ease-in-out bg-gradient-to-r from-[#2af598] 
+  via-[#1bd7bb] to-[#08b3e5] opacity-0">
+
+  <div className='p-3'>
+    <h1 className='pl-2 text-1xl font-semibold text-gray-800 items-center'>Selected Work</h1>
+    <h1 className='pl-2 text-2xl font-semibold text-white items-center'>Ice Scream</h1>
+    <p className='pl-2 mt-2 text-[#0f161a] text-[85%]'>An AI assisted short comic. Created with Midjourney and post-production editing</p>
+    
+    <div className='absolute bottom-0 right-0 p-2 mr-4'>
+        <div></div>
+        <div className='flex'>
+        <a href='https://twitter.com/Mr_AllenT/status/1644339347456491522'>
+        <div className='flex justify-center hover:text-gray-800'> <AiOutlineTwitter className='text-3xl pr-1'/> Read Now</div>
         </a>
         </div>
     </div>

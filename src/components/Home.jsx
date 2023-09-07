@@ -20,7 +20,7 @@ const Home = () => {
             <h1 className='pt-6 text-5xl sm:text-8xl font-bold text-[#EDEAEA]'>HI, I'M <span className='text-green-400 '>Allen</span></h1>
             <h2 className='text-2xl sm:text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-600 animate-text'>DEVELOPER | STORYTELLER | ARTIST</h2>
             <p className='pt-9 text-[#EDEAEA] py-4 max-w-[700px] font-sans'>
-            I specializing in using AI technology to bring ideas to life. My background is in iOS and React development, 
+            I specialize in using AI technology to bring ideas to life. My background is in iOS and React development, 
             but my passion lies in leveraging AI tools to create art, films, video games, and interactive stories.
             </p>
             <div className='pt-6'>
