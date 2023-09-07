@@ -16,7 +16,7 @@ const {ref, inView } = useInView()
         <div className='flex flex-col px-8 md:px-12 justify-center items-center w-full h-full'>
             <div ref={ref}>
                 <div className='sm:text-right pb-8 pl-4 items flex sm:justify-center'>
-                    <p className='text-3xl font-bold inline border-b-4 border-green-400'>About Me 
+                    <p className='text-3xl font-bold inline border-b-4 border-green-400'>ABOUT ME
                     </p>
                 </div>
 
