@@ -15,21 +15,21 @@ const Contact = () => {
 <div className="px-4 md:px-12 pb-2 pt-10" ref={ref}>
 
 <div className='pb-8'>
-                <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA] text-[#EDEAEA]'>LET'S CONNECT</p>
+                <p className='text-3xl font-bold inline border-b-4 border-green-400 text-[#EDEAEA]'>LET'S CONNECT</p>
             </div>
 
       <div className={`${inView ? 'animate-fadeIn text-white rounded-lg shadow-sm pt-5 pb-1 md:py-4 px-4 md:px-6 ' : 'text-white rounded-lg shadow-sm shadow-[#64FFDA] pt-5 pb-1 md:py-4 px-4 md:px-6 bg-[#1B2739]'}`}>
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-x-1 mb-4">
           <div className="mb-6 lg:mb-0 text-center mx-auto">
             <a href='https://twitter.com/Mr_AllenT'>
-              <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out]"/>
+              <AiOutlineTwitter className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-green-400 hover:scale-[80%] duration-300 ease-in-out]"/>
               <h6 className="font-medium">X</h6>
             </a>
           </div>
           <div className="text-center mx-auto">
             <a href='mailto:allent.bus@gmail.com'>
             <AiOutlineMail 
-            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-[#64FFDA] hover:scale-[80%] duration-300 ease-in-out"/>
+            className="w-8 h-8 mb-2 mx-auto cursor-pointer hover:text-green-400 hover:scale-[80%] duration-300 ease-in-out"/>
             </a>
             <h6 className="font-medium">Email</h6>
           </div>

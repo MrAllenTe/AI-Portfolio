@@ -30,7 +30,7 @@ return (
         <div ref={ref}>
         <div className='max-w-[1000px] mx-auto p-4 w-full h-full '>
             <div className='sm:text-right pb-8 flex sm:justify-center'>
-                <p className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-[#64FFDA]'>
+                <p className='text-3xl text font-bold inline border-b-4 text-[#EDEAEA] border-green-400'>
                     SELECTED WORK
                 </p>
             </div>
@@ -279,7 +279,6 @@ return (
     </div>
   </div>
 </div>
-
 
 
 

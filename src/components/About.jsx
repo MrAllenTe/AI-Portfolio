@@ -16,7 +16,7 @@ const {ref, inView } = useInView()
         <div className='flex flex-col px-8 md:px-12 justify-center items-center w-full h-full'>
             <div ref={ref}>
                 <div className='sm:text-right pb-8 pl-4 items flex sm:justify-center'>
-                    <p className='text-3xl font-bold inline border-b-4 border-[#64FFDA]'>About Me 
+                    <p className='text-3xl font-bold inline border-b-4 border-green-400'>About Me 
                     </p>
                 </div>
 
@@ -33,19 +33,17 @@ const {ref, inView } = useInView()
                 <div>
                 <p>I'm an AI storyteller, full stack developer, and artist specializing in using AI technology and code to bring ideas to life. 
                     My background is in iOS and React development, but my passion lies in leveraging tools like 
-                 <span className='text-[#64FFDA]'> Midjourney, Adobe, Stable Diffusion, Runway, GPT4, Claude, and Pika Labs</span> to create digital art, films, video games, and interactive stories.</p>
-                 <div></div>
-                 <div></div>
+                 <span className='text-green-400'> Midjourney, Adobe, Stable Diffusion, Runway, GPT4, Claude, and Pika Labs</span> to create digital art, films, video games, and interactive stories.</p>
+                 <div className='py-2'></div>
                 <p className='pt-2'> I believe AI holds amazing potential for creativity. My work explores new AI capabilities 
                 and pushes boundaries to make something novel. I approach each project with wonder and curiosity. </p>
                 <ul className='grid grid-cols-2 p-2 mt-2'>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Midjourney</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Adobe </li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> GPT</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Runway</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Pika Labs</li>
-                    <li className='flex items-center'><AiOutlineCheck className='text-[#64FFDA]'/> Stable Diffusion</li>
-
+                    <li className='flex items-center'><AiOutlineCheck className='text-green-400'/> Midjourney</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-green-400'/> Adobe Suite</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-green-400'/> GPT</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-green-400'/> Runway AI</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-green-400'/> Pika Labs</li>
+                    <li className='flex items-center'><AiOutlineCheck className='text-green-400'/> Stable Diffusion</li>
                 </ul>
                 </div>
             </div>
