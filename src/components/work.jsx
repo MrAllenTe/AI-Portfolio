@@ -9,7 +9,7 @@ import Moment from '../assets/ballerina.png'
 import Clue from '../assets/Clue.png'
 import Escape from '../assets/escape.png'
 import Mouth from '../assets/mouth.png'
-import Rain from '../assets/rain.png'
+import Rain from '../assets/Rain.png'
 
 
 
