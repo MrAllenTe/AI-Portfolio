@@ -14,7 +14,7 @@ const handleHamburgerClick = () => {
     sethamburger(prevState => !prevState)
 }
 
-const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300 bg-[#64FFDA]`;
+const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-black transition ease transform duration-300 bg-green-400`;
 const handleClick = () => setNav(prevNav => !prevNav)
 
 useEffect(() => {
